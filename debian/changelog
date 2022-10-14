@@ -1,0 +1,58 @@
+node-loud-rejection (2.2.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Thu, 11 Nov 2021 18:20:35 +0100
+
+node-loud-rejection (2.2.0-1) unstable; urgency=medium
+
+  [ Sakshi Sangwan ]
+  * Team Upload
+  * New upstream version 2.2.0
+  * Bump Standard-Version to 4.4.1
+  * Add Rules-Requires-Root: no
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 12
+  * Add debian/gbp.conf
+
+ -- Sakshi Sangwan <sangwansakshi10@gmail.com>  Sun, 03 Nov 2019 11:28:27 +0000
+
+node-loud-rejection (2.0.0-2) unstable; urgency=medium
+
+  * Reupload to unstable
+  * Bump Standards-Version to 4.4.0 and debhelper to 12
+  * Switch install to pkg-js-tools
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Sun, 11 Aug 2019 20:18:55 +0530
+
+node-loud-rejection (2.0.0-1) experimental; urgency=medium
+
+  * New upstream version 2.0.0
+  * Switch test to pkg-js-tools
+  * Update d/control and d/install
+  * Update d/copyright
+  * Add d/upstream/metadata
+  * Add myself as an uploader
+  * Update dependencies in d/control
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Mon, 25 Mar 2019 03:53:58 +0530
+
+node-loud-rejection (1.6.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #842227)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 27 Oct 2016 12:06:40 +0530
