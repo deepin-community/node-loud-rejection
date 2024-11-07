@@ -9,8 +9,8 @@ Build-Depends:
  dh-sequence-nodejs,
  debhelper-compat (= 13),
  node-currently-unhandled <!nocheck>,
- node-signal-exit <!nocheck>
-Standards-Version: 4.6.0
+ node-signal-exit (>= 4) <!nocheck>
+Standards-Version: 4.6.2
 Homepage: https://github.com/sindresorhus/loud-rejection
 Vcs-Git: https://salsa.debian.org/js-team/node-loud-rejection.git
 Vcs-Browser: https://salsa.debian.org/js-team/node-loud-rejection
@@ -21,7 +21,7 @@ Architecture: all
 Depends:
  ${misc:Depends},
  node-currently-unhandled,
- node-signal-exit,
+ node-signal-exit (>= 4),
 Description: make unhandled promise rejections fail loudly
  This library can be used to make unhandled promise rejections fail loudly
  instead of the default silent fail.
