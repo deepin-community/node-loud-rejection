@@ -1,3 +1,11 @@
+node-loud-rejection (2.2.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.2, no changes needed.
+  * Add fix for node-signal-exit >= 4
+
+ -- Yadd <yadd@debian.org>  Thu, 17 Aug 2023 21:14:06 +0400
+
 node-loud-rejection (2.2.0-2) unstable; urgency=medium
 
   * Team upload
